@@ -1,5 +1,7 @@
 document.addEventListener('keydown', handleKeyDown);
 
+var carImage = document.getElementById('car');
+
 var car = {
   angle: 0,
   state: 'off',
@@ -18,4 +20,5 @@ function handleKeyDown(event) {
   } else if (event.code === 'ArrowRight') {
     car.angle += 10;
   }
+  carImage.style.transform = 'rotate(' + car.angle + 'deg)';
 }
