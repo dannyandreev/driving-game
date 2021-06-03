@@ -1,8 +1,20 @@
 body {
   background-color: green;
+  width: 2000;
+  height: 1500;
 }
 
 #car {
-  width: 512px;
-  height: 512px;
+  width: 300px;
+  height: 300px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+#carDiv {
+  width: 300px;
+  height: 300px;
 }
